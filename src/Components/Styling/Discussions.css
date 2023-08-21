@@ -1,0 +1,65 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.Discussions {
+    width: 100%;
+    background: #191919;
+}
+
+.Discussions .title{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 400%;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 2%;
+    /* background: linear-gradient(#101010,black); */
+}
+.box .card {
+    background-color: #191919;
+    margin: 2%;
+    width: 25%;
+    height: 300px;
+    border-radius: 10%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.box .card .front{
+    backface-visibility: hidden;
+}
+.box .card .back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.box .card h5{
+    
+    font-size: 150%;
+    color: white ;
+    margin-top: 20%;
+    
+}
+.icon{
+    margin-top: 20%;
+    font-size: 60px;
+    color: #08bd8f;
+
+}
+

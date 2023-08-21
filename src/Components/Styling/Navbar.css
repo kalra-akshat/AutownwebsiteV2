@@ -1,0 +1,107 @@
+
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+.mainlayout {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Images/backgroundmain.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.bits_logo{
+    /* position: absolute; */
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 0.5%;
+    width: 11%;
+    /* transform: translateY(30%); */
+}
+.navStyle{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    justify-content: space-around;
+}
+
+nav{
+    width: 90%;
+}
+nav ul li{
+    list-style-type: none;
+    display: flex; 
+    /* padding: 10px 25px; */
+    padding: 1%;
+}
+
+nav ul li a{
+    background-color: transparent;
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 45px;
+    text-transform: capitalize;
+    
+}
+
+nav ul li a:hover{
+    color: #08bd8f;
+    transition: .4s;
+}
+
+
+.content{
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    transform: translateY(-50%);
+    color: antiquewhite;
+}
+
+.content h1{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+        
+}
+.content h2{
+    margin-top: 20%;
+    margin-bottom: 0%;
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+   
+}
+.content h3{
+    color: white;
+    font-size: 22px;
+}
+    
+.btn {
+    font-size: 25px;
+    background-color: #08bd8f;
+    color: white;
+    text-decoration: none;
+    
+    border-radius: 20px ;
+    padding: 7.5px 20px;
+    transition: transform .4s  ;
+    transform: translateY(-10%);
+}
+.btn:hover {
+    color: #fff;
+    background-color: #08bd8f;
+    transform: scale(1.2);
+  
+  }
